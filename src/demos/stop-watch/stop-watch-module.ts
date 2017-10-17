@@ -8,4 +8,4 @@ import { StopWatch } from './stop-watch';
   imports: [ NgDirectivesModule ],
 	declarations: [ StopWatchApp, StopWatch ]
 })
-export class TodoAppModule {}
+export class StopWatchAppModule {}
