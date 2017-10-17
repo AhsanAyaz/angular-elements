@@ -4,8 +4,10 @@ module.exports = {
 	entry: {
 		'todo-app': './lib/demos/todo-app/todo-app.ngelement.js',
 		'now-card-feed': './lib/demos/now-cards/now-card-feed.ngelement.js',
-    'now-card': './lib/demos/now-cards/now-card.ngelement.js',
-    'progress-bars': './lib/demos/progress-bar/progress-bar.ngelement.js',
+    	'now-card': './lib/demos/now-cards/now-card.ngelement.js',
+		'progress-bars': './lib/demos/progress-bar/progress-bar.ngelement.js',
+		'stop-watch-app': './lib/demos/stop-watch/stop-watch-app.ngelement.js',
+		'stop-watch': './lib/demos/stop-watch/stop-watch.ngelement.js',
 		'angular': ['@angular/core', './lib/custom_element_adapter.js']
 	},
 	output: {

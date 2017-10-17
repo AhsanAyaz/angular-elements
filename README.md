@@ -2,6 +2,7 @@
 
 Sketching out hosting Angular Components as Custom Elements / Web Components
 
+##### Note : Scroll down to see development guidelines
 
 
 #### Angular Component API (4.x)
@@ -86,3 +87,25 @@ class MyCustomElement extends HTMLElement {
 
 ```
 
+
+#### Development
+
+Install the dependencies
+
+```bash
+npm install
+#or
+yarn
+```
+
+Build the demos
+```bash
+npm run build
+```
+
+You can serve the project using any server, for instance [http-server](https://www.npmjs.com/package/http-server)
+```bash
+http-server ./public
+
+#navigate to localhost:8080
+```
